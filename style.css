@@ -21,6 +21,13 @@ body {
   border-radius: 10px;
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
 }
+.nav-bar {
+  display: flex;
+  justify-content: space-between;
+}
+.moon {
+  cursor: pointer;
+}
 .container.disable .editor-panel,
 .container.disable .controls .reset-filter,
 .container.disable .controls .save-img {
