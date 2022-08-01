@@ -12,7 +12,7 @@ body {
   min-height: 100vh;
   align-items: center;
   justify-content: center;
-  background: #1d1d1d;
+  background: #e3f2fd;
 }
 .container {
   width: 850px;
@@ -20,13 +20,6 @@ body {
   background: #fff;
   border-radius: 10px;
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
-}
-.nav-bar {
-  display: flex;
-  justify-content: space-between;
-}
-.moon {
-  cursor: pointer;
 }
 .container.disable .editor-panel,
 .container.disable .controls .reset-filter,
